@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <base href="/">
+
+  <title>Meetup linagora</title>
+
+  <link rel="stylesheet" href="/app.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+  <script src="/app.js"></script>
+  <script src="/esn-blink/esn-blink.js"></script>
+</head>
+<body ng-app="meetup" ng-init="myText='Hello World!'">
+
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+    <a class="navbar-brand" href="#">Meetup Linagora</a>
+  </nav>
+  <div class="container">
+    <div class="input-container">
+      <label>your words:</label><br>
+      <input ng-model="myText" type="text" name="name" placeholder="write your own words">
+    </div>
+    <div class="yolo-container">
+      <div class="yolo" esn-blink="500"> {{myText}} </div>
+      <div class="yolo" esn-blink="1000"> Coucou </div>
+      <div class="yolo" esn-blink="1500"> 3aslama </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</body>
+</html>

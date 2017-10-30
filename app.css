@@ -1,0 +1,12 @@
+body {
+  padding-top: 5rem;
+}
+.container {
+  text-align: center;
+}
+.input-container{
+    padding: 3rem 1.5rem;
+}
+.yolo{
+  font-size:  3em;
+}

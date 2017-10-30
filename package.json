@@ -1,0 +1,21 @@
+{
+  "name": "meetup-angular",
+  "version": "1.0.0",
+  "description": "presenting AngularJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "ahmed ben hariz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "angular": "^1.5.6",
+    "angular-ui-router": "^0.3.0"
+  }
+}
